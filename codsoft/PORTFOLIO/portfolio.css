@@ -1,0 +1,421 @@
+@import url('https://fonts.googleapis.com/css2?family=Margarine&family=Roboto+Slab:wght@100..900&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: "Roboto Slab", serif;
+}
+.container{
+    display: flex;
+    flex-direction: column;   
+    background-color: black;
+    width: 100%;
+    gap: 50px;
+    align-items: center;
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 75px;
+    padding-top: 10px;
+    width: 100%;
+    background-color: rgb(255, 213, 0);
+}
+.para{
+    font-size: 24px;
+    font-weight: 600;
+}
+.nav{
+    display: flex;
+    gap: 50px;
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    font-weight: 300px;
+}
+a:hover{
+    border-bottom: 2px solid black;
+    font-size: 20px;
+    font-weight: 300px;
+}
+.nav-1{
+    border-bottom: 2px solid black;
+}
+.home{
+    display: flex;
+    width: 90%;
+    align-items: center;
+    height: 100%;
+    justify-content: space-evenly;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    gap: 10px;
+}
+.para-1{
+    color:rgb(255, 213, 0);
+    margin: 0%;
+    padding: 0%;
+    letter-spacing: 3px;
+}
+h1{
+    color: white;
+    margin: 0%;
+    padding: 0%;
+    font-size: 56px;
+}
+.span{
+    color:rgb(255, 213, 0);
+}
+.para-2{
+    color: white;
+    margin: 0%;
+    padding: 0%;
+    font-size:28px;
+}
+.btn-2{
+   border: 2px solid rgb(255, 213, 0);
+   color: white;
+   font-size: 20px;
+   padding: 10px;
+   border-radius: 10px;
+}
+.button{
+    padding-top: 20px;
+}
+
+.btn-2:hover{
+    background-color:rgb(255, 213, 0);
+    color: black;
+}
+/* portfolio-about me page Style */
+
+.about{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+.about-content{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    width: 50%;
+    border-right: 2px solid white;
+}
+.about-details{
+    display: flex;
+    gap: 20px;
+}
+.about-qes{
+    display: flex;
+    width: 20%;
+}
+.about-ans{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+}
+.ul-1{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.li-1{
+    color:rgb(255, 213, 0);
+    list-style: none;
+    font-size: 20px;
+}
+.ul-2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.li-2{
+    color: white;
+    list-style: none;
+    font-size: 20px;
+}
+.PROFILE{
+    height: 500px;
+    width: 650px;
+}
+.span-1{
+    color:rgb(255, 213, 0);
+    font-size: 56px;
+}
+.h1-com{
+    font-size: 36px;
+}
+.about-education{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    width: 50%;
+    padding-left: 40px;
+}
+.education{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.edu-1{
+    display: flex;
+    flex-direction: column; 
+    gap: 10px;  
+}
+.edu-p{
+    color: white;
+    border: 2px solid rgb(255, 213, 0);
+    width: 180px;
+    text-align: center;
+    border-radius: 10px;
+}
+.edu-clg{
+    letter-spacing: 1px;
+    color: white;
+}
+.edu-2{
+    color: white;
+    letter-spacing: 1px;
+}
+
+/* portfolio-contact me page Style */
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 90%;
+    gap: 50px;   
+}
+
+.contact-h1{
+    color: white;
+    margin: 0%;
+    padding: 0%;
+    font-size: 56px;
+    text-align: left
+}
+.h2{
+    color:rgb(255, 213, 0);
+    text-align: center;
+    font-size: 36px;
+}
+.para-con{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+.details{
+    display: flex;
+    justify-content: space-evenly;
+}
+.detail-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.para-detail-1{
+    color: white;
+    font-size: 18px;
+}
+.para-detail-2:hover{
+    border-bottom: 2px solid rgb(255, 213, 0);
+    color:rgb(255, 213, 0);
+}
+.para-detail-2{
+    color: white;
+    font-size: 18px;
+}
+.para-detail-3{
+    color: white;
+    font-size: 18px;
+}
+.img-detail{
+    width: 40px;
+}
+.message{
+    display: flex;
+    padding-bottom: 50px;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.mess{
+    width: 50%;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+}
+section{
+    display: flex;
+    gap:5%;
+    width: 103%;
+}
+.txt{
+    height: 30px;
+    width: 90%;
+    background-color: black;
+    border: 2px solid rgb(255, 213, 0);
+    outline: none;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 18px;
+}
+.sub{
+    width: 100%;
+    height: 30px;
+    background-color: black;
+    border: 2px solid rgb(255, 213, 0);
+    outline: none;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 18px;
+}
+textarea{
+    width: 100%;
+    height: 30px;
+    background-color: black;
+    border: 2px solid rgb(255, 213, 0);;
+    outline: none;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 18px;
+    height: 100px;
+}
+.btn-mess{
+    background-color: rgb(255, 213, 0);
+    height: 40px;
+    width: 180px;
+    color: black;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+}
+
+/* skill page oda css */
+
+.skill{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    height: 100%;
+    padding-top: 50px;
+    
+}
+.left{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    gap: 50px;
+    
+}
+.right{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    gap: 50px;
+}
+.tech{
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+    width: 100%;
+    
+}
+.tech-one{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+.tech-one-div{
+    display: flex;
+    width: 70%;
+    align-items: center;
+    justify-content: space-between;
+}
+.tech-para-1{
+    color: white;
+    font-size: 20px;
+}
+.tech-sec-one{
+    width: 70%;
+    height: 10px;
+    background-color:rgb(36, 36, 36);
+    border-radius: 2px;
+}
+.tech-sec-1{
+    width: 95%;
+    height: 10px;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    background-color: rgb(255, 213, 0);
+}
+.tech-sec-2{
+    width: 90%;
+    height: 10px;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    background-color: rgb(255, 213, 0);
+}
+.tech-sec-3{
+    width: 60%;
+    height: 10px;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    background-color: rgb(255, 213, 0);
+}
+.tech-sec-4{
+    width: 35%;
+    height: 10px;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    background-color: rgb(255, 213, 0);
+}
+.tech-sec-5{
+    width: 25%;
+    height: 10px;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    background-color: rgb(255, 213, 0);
+}
+.soft{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.tech-para-3{
+    background-color:  rgb(255, 213, 0);
+    color: black;
+    width: fit-content;
+    padding: 5px;
+    font-size: 20px;
+}
+.tech-two-div{
+    display: flex;
+    align-items:center;
+    width: 100%;
+}
+.tech-para-2{
+    background-color: rgb(255, 213, 0);
+    height: 10px;
+    width: 60%;
+    margin: 0px;
+    padding: 0px;
+}
